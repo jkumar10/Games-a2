@@ -1,3 +1,5 @@
+import sys
+
 def isGoal(board,n):
     # CHECKING ALL ROWS
     i=0
@@ -32,19 +34,22 @@ def isGoal(board,n):
 
 
 
+# TAKING INPUTS AS COMMANDLINE
+n=int(sys.argv[1])
+state_string=sys.argv[2]
+
+# CONVERTING STRING TO A GAME BOARD
+sublist=[]
+initial_board=[]
+k=0
+for j in range(n+3):
+    sublist=[]
+    for j in range(k,k+n):
+        sublist.append(state_string[j])
+    initial_board.append(sublist)
+    k+=n
 
 
-n=5
-initial_board=[
-                [0,0,0,0,0],
-                [0,0,0,0,0],
-                ['x','x','x','x','x'],
-                [0,0,0,0,0],
-                [0,0,0,0,0],
-                [0,0,0,0,0],
-                [0,0,0,0,0],
-                [0,0,0,0,0]
 
-            ]
-
-print isGoal(initial_board,5)
+# WILL RETURN TRUE IF GOAL FOUND OTHERWISE FALSE OR NONE
+print isGoal(initial_board,n)
