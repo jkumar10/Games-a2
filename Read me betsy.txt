@@ -42,12 +42,12 @@ GOAL STATE:
 
 Possible goal states are: 
 
-			  x . .          . . x          . . .       o . .      etc
-			  x x .          o x o		x x x       o . .      
-                          o x x		 x o o		x x o       o x o      
-                          x o o          o x o		o o o       o o o     
-                          o x x          x o x		x x o       x x x     
-                          x x o          x x o		x x x       x x o     
+x . .          . . x            . . .       o . .      etc
+x x .          o x o		x x x       o . .      
+o x x	       x o o		x x o       o x o      
+x o o          o x o		o o o       o o o     
+o x x          x o x		x x o       x x x     
+x x o          x x o		x x x       x x o     
 
 
 HOW WE SOLVED THE PROBLEM:
