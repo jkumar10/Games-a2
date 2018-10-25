@@ -30,14 +30,16 @@ If board state is :       . . .
                           x x o
 
 
-Possible successors are:  . . .          . . .          . . .       . . .      . . .      x . .
-			  x . .          o . .		o . .       o . .      o . x      o . .
-                          o . o		 x . o		x . o       x x o      x . o      x . o
-                          x o o          o x o		o o o       o o o      o o o      o o o
-                          o x x          x o x		x x o       x x x      x x x      x x x
-                          x x o          x x o		x x x       x x o      x x x      x x o
+Possible successors are:  
+. . .          . . .            . . .       . . .      . . .      x . .
+x . .          o . .		o . .       o . .      o . x      o . .
+o . o	       x . o		x . o       x x o      x . o      x . o
+x o o          o x o		o o o       o o o      o o o      o o o
+o x x          x o x		x x o       x x x      x x x      x x x
+x x o          x x o		x x x       x x o      x x x      x x o
                            
-                           -1              -2             -3          2           3         1
+ -1              -2             -3          2           3         1
+ 
 GOAL STATE:
 
 Possible goal states are: 
