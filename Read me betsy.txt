@@ -107,7 +107,7 @@ HEURISTIC FUNCTION
 We check the current state of the board and based on the player's turn we are assigning max value of +100 for the number of pieces the max player has on every row, column and diagonals while -50 for every opponent's piece. We consider this for nxn board and discard the last three rows. However, there is a exception that we also consider the value for the piece which is present in the last row because that is the piece which will be rotated. We return the max Of all the sums as the heuristic if it is max's turn and negative of the max if it is min's turn.
 
 Heuritic for x will be = max(heuristic value of 1st row to nth row,heuristic value of 1st column to nth column, heuristic of 
-right diagonal, heuristic value of left diagonal,heuristic value of last (n+3)rd row.
+right diagonal, heuristic value of left diagonal,heuristic value of last (n+3)rd row)
  
   
  
